@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans";
+
+}
+
+#hero {
+    width: 1344px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%, rgba(16, 16, 16, 0) 100%),
+        url(./images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 643px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+#hero .hero-content {
+    max-width: 716px;
+    width: 716px;
+}
+
+.hero-content .hero-subtile {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+.hero-content .hero-title {
+    color: rgb(255, 255, 255);
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    margin: 9px 0px 12px 0px;
+}
+
+.hero-content .hero-perag {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.7;
+    margin: 12px 0px 16px 0px;
+}
+
+.hero-content .btn-container {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    padding: 11px 16px 11px 16px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 600;
+    border: none;
+}
+
+/* card */
+
+#card-section {
+    margin: 150px 0 85px 0;
+    text-align: center;
+    width: 924px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 85px;
+    gap: 20px;
+}
+
+#card-section .card-info {
+    width: 483px;
+}
+
+.card-section-subtitle {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 19px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+.card-section-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+
+#card-section .card-container {
+
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-bottom: 24px;
+    gap: 15px           ;
+
+
+}
+
+.card-container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 295px;
+    gap: 15px;
+
+}
+
+.card-img img {
+    width: 295px;
+    border-radius: 11.2px;
+
+}
+
+.card .card-span {
+    color: rgb(16, 16, 16);
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 9px 24px 9px 24px;
+
+}
+
+.card .card-title {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.card .card-perag {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 12.5px;
+    font-weight: 500;
+    opacity: 0.7;
+    text-align: center;
+
+}
